@@ -1,0 +1,19 @@
+<nav>
+    <div class="nav-bar">
+        <a routerLink="/" class="logo"><h3><span class="shop">WEST</span>SHOP</h3></a>
+        <div class="search-box">
+            <form [formGroup] = "searchForm" (ngSubmit)="search()">
+                 <input type="text" name="searchbar" formControlName = "searchTerm">
+                 <input type="submit" value="Search">
+            </form>
+        </div>
+        <ul>
+            <li>
+                <a routerLink="/cart">Cart<span class="round">{{itemsInCart}}</span></a>  
+            </li>
+            <li>
+                <a [routerLink]="['']" >Account</a>
+            </li>
+        </ul>
+    </div>
+</nav>

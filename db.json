@@ -1,0 +1,22 @@
+{
+  "products" : [
+      {
+          "id":1,
+          "title":"Infinix hot 11",
+           "price":11000,
+           "source":"phone343.jpeg"
+      },
+      {
+          "id":2,
+          "title":"Xiaomi Redmi Note 16",
+           "price":16000,
+           "source":"t.png"
+      },
+      {
+          "id":3,
+          "title":"Tecno Camon 20",
+           "price":21000,
+           "source":"b.jpg"
+      }
+  ]
+}

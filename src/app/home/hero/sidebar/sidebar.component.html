@@ -1,0 +1,7 @@
+<div class="sidebar">
+    <h4>Categories</h4>
+    <ul>
+        <li *ngFor = "let category of categories; let id = index"> <a [routerLink]="['/category',id]">{{category.categoryName}}</a></li> 
+
+    </ul>
+</div>
